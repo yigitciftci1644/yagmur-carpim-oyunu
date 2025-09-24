@@ -1,0 +1,72 @@
+/* Genel sayfa stilleri */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Başlık */
+header h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #ff00b3;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Skor */
+#score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0 20px;
+  color: #ff00b3;
+}
+
+/* Stitch */
+#stitch-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#stitch-img {
+  width: 280px;
+  max-width: 80%;
+}
+
+/* Soru */
+#question {
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff009d;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+/* Şıklar */
+#options {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#options button {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #0044ffcc;
+  color: #000000;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 80px;
+}
+
+#options button:hover {
+  background-color: #ff008c;
+  transform: scale(1.05);
+}
